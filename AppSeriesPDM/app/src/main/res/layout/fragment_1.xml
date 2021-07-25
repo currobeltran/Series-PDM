@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="371dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/catamaran_medium"
+        android:gravity="center"
+        android:text="@string/descripcionslide"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="203dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="12dp"
+        android:onClick="verMisSeries"
+        android:text="@string/misseries"
+        app:backgroundTint="@color/teal_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SwipeCardsView2" />
+
+    <com.huxq17.swipecardsview.SwipeCardsView
+        android:id="@+id/SwipeCardsView2"
+        android:layout_width="257dp"
+        android:layout_height="349dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/cardview_shadow_end_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+    </com.huxq17.swipecardsview.SwipeCardsView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AppSeriesPDM</string>
+    <string name="credenciales">Introduzca sus credenciales de TheMovieDB para iniciar sesión</string>
+    <string name="iniciosesionboton">Iniciar sesión</string>
+    <string name="buscar">Buscar serie</string>
+    <string name="search_hint">Buscar nuevas series</string>
+    <string name="resultados">Resultados de la búsqueda</string>
+    <string name="descripcionslide">Desliza a la derecha si ya viste este capítulo, o a la izquierda en caso contrario</string>
+    <string name="misseries">Mis series</string>
+    <string name="usuariosseguidos">Usuarios Seguidos</string>
+    <string name="nosigues">No sigues a nadie</string>
+    <string name="serieseguidas">Series seguidas</string>
+    <string name="recomendaciones">Recomendaciones</string>
+    <string name="configuracion">Configuración</string>
+    <string name="plataforma">Elije tus plataformas</string>
+    <string name="mostrarcanceladas">Mostrar series canceladas o acabadas</string>
+    <string name="criteriosrecomendacion">Criterios de recomendación</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nuestrarecomendacion">Nuestras recomendaciones para tí</string>
+    <string name="explicacionrecomendacion">Deslice a la derecha para introducir una serie en la lista de seguimiento, o a la izquierda en caso contrario</string>
+</resources>
